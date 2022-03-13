@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dsa_Quiz</title>
+
+  <style>
+
+    .quizBox{
+    border:1px solid black;
+    margin-left:100px;
+    margin-right:100px;
+    font-family:cursive;
+
+
+      }
+      .quizBox .Q{
+        padding :40px;
+       border:1px solid black;
+
+      }
+      .quizBox .Q d{
+       color:deeppink;
+       font-family:red;
+      font-family:cursive;
+
+      width:40px;
+
+
+      }
+      body{
+      background-color:PaleTurquoise;
+      }
+      .logo img{
+      width:150px;
+      height:150px;
+      }
+      .logo d{
+           color:Deeppink;
+           font-family:cursive;
+           float:right;
+           margin-right:45%;
+
+           font-size:50px;
+           font-weight:bold;
+      }
+
+  </style>
+</head>
+
+
+<body>
+
+<script>
+
+  var i = 0;
+   function fun1()
+   {
+      document.getElementById("Q1ans").innerHTML = "O(n^2)";
+   }
+   function fun2()
+   {
+      document.getElementById("Q2ans").innerHTML = "Recursion";
+   }
+   function fun3()
+   {
+      document.getElementById("Q3ans").innerHTML = "O^(n3)";
+   }
+    function fun4()
+   {
+      document.getElementById("Q4ans").innerHTML = "1";
+   }
+    function fun5()
+   {
+      document.getElementById("Q5ans").innerHTML = "Hash Table";
+   }
+    function fun6()
+   {
+      document.getElementById("Q6ans").innerHTML = "selection sort";
+   }
+   function fun7()
+   {
+      document.getElementById("Q7ans").innerHTML = "node.next inaccessible";
+   }
+   function fun8()
+   {
+      document.getElementById("Q8ans").innerHTML = "complete binary tree";
+   }
+   function fun9()
+   {
+      document.getElementById("Q9ans").innerHTML = " Depth First Search";
+   }
+   function fun10()
+   {
+      document.getElementById("Q10ans").innerHTML = "takes advantage of already sorted elements.";
+   }
+</script>
+<div   class = "logo"><a href = "page-1.html"><img  src = "image/logo_preview_rev_1.jpeg"></a>
+ <d>DSA-Quiz</d> </div>
+
+<br>
+
+<div  class = "quizBox">
+
+  <div class = "Q"><p>Q 1 - What is the worst case time complexity of linear search algorithm?</p>
+    <ol>
+      <li>Ο(1)</li>
+
+      <li>Ο(n)</li>
+
+      <li> Ο(log n)</li>
+
+      <li> Ο(n^2)</li>
+
+    </ol>
+    <button onclick="fun1()">view Answer</button>
+
+    <d id = "Q1ans"></d></div>
+
+
+  <div  class = "Q"><p>Q 2 - Stack is used for</p>
+    <ol>
+      <li>CPU Resource Allocation</li>
+
+      <li>Breadth First Traversal</li>
+
+      <li>Recursion</li>
+
+      <li>None of the above</li>
+
+    </ol>
+    <button onclick="fun2()"> view Answer</button>
+    <d id = "Q2ans"></d></div>
+
+
+  <div  class = "Q"><p>Q 3 - Which of the following asymptotic notation is the worst among all?</p>
+    <ol>
+      <li> Ο(n+9378)</li>
+
+      <li>Ο^(n3)</li>
+
+      <li>n^Ο(1)</li>
+
+      <li>2^Ο(n)</li>
+
+    </ol>
+    <button onclick="fun3()"> view Answer</button>
+    <d id = "Q3ans"></d></div>
+  <div  class = "Q"><p>Q 4 - Minimum number of spanning tree in a connected graph is</p>
+    <ol>
+      <li>n</li>
+
+      <li>n^(n-1)</li>
+
+      <li>1</li>
+
+      <li>0</li>
+
+    </ol>
+    <button onclick="fun4()"> view Answer</button>
+    <d id = "Q4ans"></d></div>
+
+  <div  class = "Q"><p>Q 5 - Which of the following has search effeciency of Ο(1) −</p>
+    <ol>
+      <li>Tree</li>
+
+      <li>Heap</li>
+
+      <li>Hash table</li>
+
+      <li>Linked List</li>
+
+    </ol>
+    <button onclick="fun5()"> view Answer</button>
+    <d id = "Q5ans"></d></div>
+
+  <div  class = "Q"><p>Q 6 - Which of the below given sorting techniques has highest best-case runtime complexity −</p>
+    <ol>
+      <li>quick sort</li>
+
+      <li>selection sort</li>
+
+      <li>insertion sort</li>
+
+      <li> bubble sort</li>
+
+    </ol>
+    <button onclick="fun6()"> view Answer</button>
+    <d id = "Q6ans"></d></div>
+
+  <div  class = "Q"><p>Q 7 - node.next -> node.next.next; will make</p>
+    <ol>
+      <li>node.next inaccessible</li>
+
+      <li>node.next.next inaccessible</li>
+
+      <li>this node inaccessible</li>
+
+      <li>none of the above</li>
+
+    </ol>
+    <button onclick="fun7()"> view Answer</button>
+    <d id = "Q7ans"></d></div>
+
+  <div  class = "Q"><p>Q 8 - Heap is an example of</p>
+    <ol>
+      <li> complete binary tree</li>
+
+      <li>spanning tree</li>
+
+      <li>sparse tree</li>
+
+      <li> binary search tree</li>
+
+    </ol>
+    <button onclick="fun8()"> view Answer</button>
+    <d id = "Q8ans"></d></div>
+
+  <div  class = "Q"><p>Q 9 - If locality is a concern, you can use _______ to traverse the graph.</p>
+    <ol>
+      <li>Breadth First Search</li>
+
+      <li> Depth First Search</li>
+
+      <li>Either BFS or DFS</li>
+
+      <li>None of the above!</li>
+
+    </ol>
+    <button onclick="fun9()"> view Answer</button>
+    <d id = "Q9ans"></d></div>
+
+  <div  class = "Q"><p>Q 10 - An adaptive sorting algorithm −</p>
+    <ol>
+      <li>adapts to new computers.</li>
+
+      <li>takes advantage of already sorted elements.</li>
+
+      <li>takes input which is already sorted.</li>
+
+      <li>none of the above.<li>
+
+    </ol>
+    <button onclick="fun10()"> view Answer</button>
+    <d id = "Q10ans"></d></div>
+
+</div>
+</body>
+</html>
