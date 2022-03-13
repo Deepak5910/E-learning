@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+  <style>
+
+    body{
+    background-image:url('image/login-back.jpg');
+    }
+    .box{
+    border:1px solid black;
+    height:700px;
+    width:600px;
+    margin-top:150px;
+   margin-left:auto;
+   margin-right:auto;
+    opacity:0.7;
+    background-color:white;
+    border-radius:5px;
+    }
+    .rg{
+    margin-left:470px;
+    margin-top:20px;
+    border-radius:20px;
+    width:100px;
+    height:30px;
+    background-color:green;
+    color:white;
+    float:right;
+    font-family: cursive;
+    }
+
+    .rg:hover{
+    transition: .9s ease;
+	transform: scale(1.2);
+    }
+    .ff{
+  margin-top:60px;
+    }
+    .ff input  {
+  border-radius:6px;
+   height:20px;
+   margin-top:40px;
+   margin-left:40px;
+   margin-right:auto;
+    }
+    .ff label{
+height:20px;
+   margin-top:10px;
+   margin-left:120px;
+   margin-right:auto;
+   font-size:20px;
+   font-family: cursive;
+    }
+    .lb{
+     margin-left:230px;
+    margin-top:40px;
+    border-radius:20px;
+    margin-right:auto;
+    width:200px;
+    height:30px;
+    background-color:green;
+    color:white;
+  font-family: cursive;
+    }
+    .lb:hover{
+    transition: .9s ease;
+	transform: scale(1.2);
+    }
+     .logo{
+    text-align:center;
+    margin-top:170px
+    color:green;
+    font-size:40px;
+    font-family: cursive;
+     }
+
+     .connect {
+	display: flex;
+	margin: 10px;
+	padding: 0px 30px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	border: 1px solid lightgray;
+	cursor: pointer;
+	outline: none;
+	margin-top:70px;
+	background: #fff3;
+	margin-left:200px;
+}
+.connect:hover {
+	background: #fff8;
+}
+.connect img {
+	padding: 5px;
+	width: 25px;
+}
+.connect span {
+	padding: 10px;
+	font-size: 15px;
+}
+  </style>
+</head>
+<body>
+
+    <div class = "box">
+
+        <div  class = "bb">
+            <button class = "rg">Register</button>
+        </div></idv>
+        <div class = "logo">E-Learning</div>
+   <form id  = "login">
+       <div class = "ff">
+           <label for  = "email"  >E-Mail</label>
+           <input type = "text" id  = "email"  style="margin-left:70px" placeholder="abc@gmail.com">
+<br>
+
+           <label for  = "password">Password</label>
+           <input id = "password" type = "password" placeholder="" minlength="8">
+       </div>
+
+<button class = "lb">Login</button>
+   </form>
+        <button class="connect" onclick="google()">
+            <img src="image/google.png"><span>Sign in with Google</span>
+        </button>
+</div>
+
+</body>
+</html>
