@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>E-Learning</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            height: 90vh;
+        }
+        
+        .black {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        nav {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            top: 0;
+            position: fixed;
+            display: flex;
+            width: 100%;
+            z-index: 1000;
+            background: Lavender;
+            justify-content: space-around;
+            transition: 1.5s;
+            align-items: center;
+            font-family: cursive;
+        }
+        
+        nav ul {
+            display: flex;
+            align-items: center;
+
+        }
+        
+        nav ul li {
+            list-style: none;
+            margin: 5px 10px;
+            border:1px solid Deeppink;
+            border-radius:10px;
+            background-color:deeppink;
+             transition: .5s;
+        }
+        
+        nav ul li a {
+            padding: 2px 10px;
+            color: white;
+            cursor: pointer;
+
+            text-decoration: none;
+
+        }
+        nav ul li:hover{
+        transform:scale(1.4);
+        }
+
+        .get-started {
+            margin-left: 50px;
+            padding: 5px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: .5s;
+            background-color: DeepPink;
+            color: #fff;
+        }
+        
+        .get-started:hover {
+            transform: scale(1.2);
+        }
+        
+        .logo img {
+            width: 120px;
+            cursor: pointer;
+            transition: all 1s;
+
+        }
+        
+        .cbox {
+            position: relative;
+            margin-top: 100px;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+            display: inline-flex;
+
+        }
+        
+        .cbox .det {
+          padding:10px;
+   text-align:center;
+   margin:10px;
+   border-radius:10px;
+   transition:0.3s;
+   background:linear-gradient(to right, #FA4B37, #DF2771);
+   width:400px;
+   height:60px;
+        }
+        
+        .cbox .det a {
+            color:white;
+   text-decoration: none;
+   font-family:cursive;
+
+        }
+        
+        .cbox .det a:hover {
+            background:
+            color: white;
+        }
+        
+        .cbox .det:hover {
+            transform: scale(1.2);
+        }
+        
+        .mid img {
+            margin-top: 100px;
+            width: 100%;
+            height: 800px;
+            text-align: center;
+        }
+        
+        h2 {
+            font-family: cursive;
+            text-align: center;
+            color: DeepPink;
+            font-size: 40px;
+            margin-top: 80px;
+        }
+
+        .copyright{
+          margin-top:50px;
+         border:1px solid black;
+         padding:10px;
+         background-color:#2E4053;
+        }
+
+        .copyright .copy p{
+        padding:20px;
+        margin-top:50px;
+         color:Deeppink;
+          font-family:cursive;
+            font-size:40px;
+            font-weight:bold;
+        }
+        .copyright p{
+        color:white;
+        font-family:cursive;
+         font-size:16px;
+         font-weight:bold;
+        }
+
+        .copyright d{
+         color:white;
+         font-family:cursive;
+         font-size:14px;
+         font-weight:bold;
+
+        }
+        .fa{
+        padding: 5px;
+       font-size: 20px;
+       width: 5px;
+      text-align: center;
+      text-decoration: none;
+       margin: 2px 1px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook, .fa-twitter, .fa-google ,.fa-linkedin, .fa-instagram{
+  background:linear-gradient(to right, #FA4B37, #DF2771);
+  color: white;
+  width:40px;
+  padding:10px;
+  margin-left:50px;
+  border-radius:10px;
+  height:40px;
+}
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo"><a href = "page-1.html"><img src="image/logo.jpg" alt="logo"></a></div>
+        <ul>
+            <li><a href="page-1.html">Home</a></li>
+            <li><a href="#portfolio_section">Services</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+            <li><a href="#services_section">Team</a></li>
+            <li><a href="contuctus.html">Contact</a></li>
+        </ul>
+        <a class="get-started" href="login.html">Login</a>
+        </div>  </nav>
+
+
+    <div class="mid"><img src="image/e-learning.png"></div>
+    <h2>Popular Courese</h2>
+
+        <center>
+            <div class="cbox">
+
+                <div class="det"><a href="dsa.html">Data Structures</a></div>
+                <div class="det"><a href="Algorithm.html">Algorithm</a></div><div class="det"><a href="Quiz.html">Daily Quiz</a></div>
+                <div class="det det-last"><a href="subjects/project.html#projects">Projects</a></div>
+
+                <div class="det"><a href="cpp.html">C++</a></div>
+                <br>
+                <div class="det"><a href="subjects/gate.html">Python</a></div>
+                <div class="det"><a href="subjects/jee.html#sample_papers">Java</a></div>
+                <div class="det"><a href="subjects/jee.html">HTML</a></div>
+                <div class="det"><a href="subjects/gate.html">CSS</a></div>
+                <div class="det"><a href="subjects/jee.html#sample_papers">Javascript</a></div>
+            </div>
+        </center>
+
+
+
+    <div class = "copyright">
+        <center><div class = "copy"><p>E-Learning</p></div>
+        <p>
+            Copyright &copy; Created By Deepak Mina All Rights Reserved 2022.
+        </p></center>
+
+    <i class='fas fa-map-marker-alt' style='font-size:40px;color:Deeppink;margin-left:20px;padding:30px'></i>
+        <d>National Institute of Technology Karnataka </d>
+        <br>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+<br>
+        <i class="fa fa-phone" style="font-size:30px;color:red;margin-left:50px;margin-top:40px"></i>
+        <d  style = "margin-left:40px">+91-1835-2466-5910</d><br>
+        <i class="fa fa-envelope" style="font-size:30px;color:red;margin-left:50px"></i>
+        <d  style = "margin-left:45px;">ELearning5910@gmail.com</d>
+    </div>
+
+
+</body>
+
+</html>
